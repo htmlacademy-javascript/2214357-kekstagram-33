@@ -68,6 +68,6 @@ const createPhoto = () => ({
   likes: getRandomInteger(15, 200)
 });
 
-const photoCount = Array.from({length: PHOTO_QUANTITY}, createPhoto);
+const photo = Array.from({length: PHOTO_QUANTITY}, createPhoto);
 
-console.log(photoCount);
+
