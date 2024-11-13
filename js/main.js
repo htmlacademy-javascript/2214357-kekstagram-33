@@ -1,1 +1,3 @@
-import { photoQuantitys } from './data.js';
+import {similarPicturesContainer} from './drawing-thumbnails.js';
+
+similarPicturesContainer();
